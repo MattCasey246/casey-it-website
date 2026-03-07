@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Casey IT Limited</title>
+  <meta name="description" content="Get in touch with Casey IT Limited to discuss your cloud or infrastructure project. Based in London, working across the UK." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact — Casey IT Limited" />
+  <meta property="og:description" content="Get in touch with Casey IT Limited to discuss your cloud or infrastructure project. Based in London, working across the UK." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:url" content="https://casey-it.co.uk/contact" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/logo.png" alt="Casey IT Limited" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html" class="btn-nav active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ======== PAGE HERO ======== -->
+  <section class="page-hero">
+    <h1>Get in Touch</h1>
+    <p>Whether you have a specific project in mind or want to explore how Casey IT Limited could support your organisation, we would love to hear from you.</p>
+  </section>
+
+  <!-- ======== CONTACT BODY ======== -->
+  <section class="contact-body">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h2>Contact Details</h2>
+          <p>Based in London, working with clients across the UK. Available for new engagements — get in touch to discuss your project.</p>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:matt@casey-it.co.uk">matt@casey-it.co.uk</a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Website</h4>
+              <a href="https://casey-it.co.uk" target="_blank" rel="noopener">www.casey-it.co.uk</a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/matthewcasey00" target="_blank" rel="noopener">linkedin.com/in/matthewcasey00</a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>London, United Kingdom</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <h2>Send an Enquiry</h2>
+          <!--
+            FORMSPREE SETUP:
+            1. Go to https://formspree.io and create a free account
+            2. Create a new form and copy your form ID (e.g. xyzabcde)
+            3. Replace YOUR_FORM_ID below with your actual form ID
+            4. Formspree will handle submissions and email you the results
+          -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name <span style="color:#e53935;">*</span></label>
+                <input type="text" id="fullName" name="fullName" required placeholder="Your full name" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company / Organisation</label>
+                <input type="text" id="company" name="company" placeholder="Your organisation (optional)" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address <span style="color:#e53935;">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+44 (optional)" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">How can we help you? <span style="color:#e53935;">*</span></label>
+              <textarea id="message" name="message" required placeholder="Tell us about your project or challenge…"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="source">How did you find us?</label>
+              <select id="source" name="source">
+                <option value="">Please select (optional)</option>
+                <option value="Google">Google</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Referral">Referral</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Enquiry</button>
+
+            <div id="successMsg" class="success-msg">
+              Thank you for your enquiry. We will be in touch within one business day.
+            </div>
+
+            <p class="form-privacy">Your information will only be used to respond to your enquiry and will not be shared with third parties.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Casey IT Limited" />
+        <p>Senior cloud architecture and infrastructure transformation — delivered from London across the UK.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="mailto:matt@casey-it.co.uk">matt@casey-it.co.uk</a></p>
+        <p><a href="https://casey-it.co.uk" target="_blank" rel="noopener">www.casey-it.co.uk</a></p>
+        <p><a href="https://linkedin.com/in/matthewcasey00" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Casey IT Limited. All rights reserved. Registered in England and Wales. Company No. 12074186.</p>
+    </div>
+  </footer>
+
+  <script src="animations.js"></script>
+  <script>
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Show success message on form submit (Formspree handles the actual submission)
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(e) {
+      // If using Formspree AJAX, you can show the success message here.
+      // By default, Formspree redirects to a thank-you page after submission.
+      // To use AJAX instead, uncomment the block below and configure your form ID.
+      /*
+      e.preventDefault();
+      const data = new FormData(form);
+      fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(res => {
+        if (res.ok) {
+          form.reset();
+          document.getElementById('successMsg').style.display = 'block';
+        }
+      });
+      */
+    });
+  </script>
+</body>
+</html>
