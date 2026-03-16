@@ -18,6 +18,7 @@
     '.about-intro-text',
     '.meet-photo',
     '.meet-content',
+    '.portfolio-card',
   ];
 
   var revealEls = [];
@@ -33,7 +34,7 @@
      Multi-column grids use column-position stagger (resets per row)
      so the total spread stays short regardless of item count. */
   document.querySelectorAll(
-    '.value-strip, .services-grid, .certs-list, .certs-grid, .engagement-grid, .expertise-tags'
+    '.value-strip, .services-grid, .certs-list, .certs-grid, .engagement-grid, .expertise-tags, .portfolio-grid'
   ).forEach(function (group) {
     var cols = group.classList.contains('services-grid')  ? 3
              : group.classList.contains('certs-grid')     ? 2
