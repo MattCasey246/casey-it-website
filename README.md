@@ -61,6 +61,7 @@ This is a static multi-page site. Each page is a self-contained `.html` file tha
 ├── styles.css          # Shared stylesheet
 ├── animations.js       # Scroll animations and nav behaviour
 ├── sitemap.xml         # SEO sitemap
+├── docs/               # Internal planning docs (not deployed)
 └── assets/             # Images and media
 ```
 
@@ -74,11 +75,9 @@ The site is hosted on **GitHub Pages** and deployed automatically from the `main
 
 ## Contact
 
-| | |
-|---|---|
-| Email | [info@casey-it.co.uk](mailto:info@casey-it.co.uk) |
-| Website | [casey-it.co.uk](https://casey-it.co.uk) |
-| LinkedIn | [matthew-casey00](https://www.linkedin.com/in/matthew-casey00/) |
+**Email** — [info@casey-it.co.uk](mailto:info@casey-it.co.uk)
+**Website** — [casey-it.co.uk](https://casey-it.co.uk)
+**LinkedIn** — [matthew-casey00](https://www.linkedin.com/in/matthew-casey00/)
 
 ---
 
