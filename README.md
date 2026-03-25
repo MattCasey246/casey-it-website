@@ -75,8 +75,8 @@ The site is hosted on **GitHub Pages** and deployed automatically from the `main
 
 ## Contact
 
-**Email** — [info@casey-it.co.uk](mailto:info@casey-it.co.uk)
-**Website** — [casey-it.co.uk](https://casey-it.co.uk)
+**Email** — [info@casey-it.co.uk](mailto:info@casey-it.co.uk)  
+**Website** — [casey-it.co.uk](https://casey-it.co.uk)  
 **LinkedIn** — [matthew-casey00](https://www.linkedin.com/in/matthew-casey00/)
 
 ---
