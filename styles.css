@@ -1,13 +1,14 @@
 /* ============================================================
    Casey IT Limited — Global Stylesheet
-   Primary: #1B3A5C (dark navy) | Accent: #2E75B6 (mid blue)
-   Font: Inter (Google Fonts)
+   Primary: #1B3A5C (dark navy) | Accent: #2E75B6 (mid blue) on light, #5BAAEB on dark
+   Fonts: Inter (body), Montserrat (display headings) — Google Fonts
    ============================================================ */
 
 /* ---- Reset & Base ---- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; background: #071830; }
 body { font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; background: #fff; }
+h1, h2 { font-family: 'Montserrat', 'Inter', sans-serif; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: #2E75B6; text-decoration: none; }
 a:hover { text-decoration: underline; }
